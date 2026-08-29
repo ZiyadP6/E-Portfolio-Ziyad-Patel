@@ -24,8 +24,16 @@ import "../styles/global.css";
       rel="stylesheet"
     />
     <title>{siteConfig.name} - {siteConfig.title}</title>
+    <script is:inline>
+      // Set the theme before first paint to avoid a flash of the wrong theme.
+      const stored = localStorage.getItem("theme");
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      if (stored === "dark" || (!stored && prefersDark)) {
+        document.documentElement.classList.add("dark");
+      }
+    </script>
   </head>
-  <body>
+  <body class="dark:bg-neutral-950 transition-colors duration-300">
     <Header />
     <section>
       <Hero />
