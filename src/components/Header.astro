@@ -3,6 +3,7 @@ import { siteConfig } from "../config";
 
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
+const hasCertifications = siteConfig.certifications && siteConfig.certifications.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 ---
 
@@ -40,6 +41,18 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               class="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors font-medium"
             >
               Experience
+            </a>
+          </li>
+        )
+      }
+      {
+        hasCertifications && (
+          <li>
+            <a
+              href="#certifications"
+              class="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors font-medium"
+            >
+              Certifications
             </a>
           </li>
         )

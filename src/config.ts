@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Ziyad",
   title: "Junior Software Developer",
   description: "Portfolio website of Ziyad Patel",
-  accentColor: "#1d4ed8",
+  accentColor: "#a01dd8",
   social: {
     email: "ziyad@ziyadpatel.com",
     linkedin: "https://www.linkedin.com/in/ziyad-patel-4b5214211/",
@@ -72,6 +72,18 @@ export const siteConfig = {
       bullets: [
         "Worked in a collaborative environment to design and build custom furniture pieces",
         "Improved my customer-facing skills and learned to communicate effectively with clients to understand their needs and preferences",
+      ],
+    },
+  ],
+  certifications: [
+    {
+      school: "RIT Tech",
+      degree: "Level 4 Software Developer Apprenticeship",
+      dateRange: "Sep 2024 - Apr 2026",
+      achievements: [
+        "Completed the apprenticeship with a Distinction alongside practical real-world experience at Mountain Warehouse",
+        "Dean's List all semesters",
+        "President of Computer Science Club",
       ],
     },
   ],
