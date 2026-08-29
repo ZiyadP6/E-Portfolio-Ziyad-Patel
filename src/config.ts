@@ -36,9 +36,9 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Mountain Warehouse",
+      title: "Junior Software Developer",
+      dateRange: "Apr 2026 - Present",
       bullets: [
         "Led development of microservices architecture serving 1M+ users",
         "Reduced API response times by 40% through optimization",
@@ -46,9 +46,9 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Mountain Warehouse",
+      title: "Intern .NET Developer",
+      dateRange: "Sep 2024 - Apr 2026",
       bullets: [
         "Built and launched MVP product from scratch using React and Node.js",
         "Implemented CI/CD pipeline reducing deployment time by 60%",
@@ -56,35 +56,43 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Mountain Warehouse",
+      title: "Customer Care Advisor",
+      dateRange: "Jun 2021 - Sep 2024",
       bullets: [
         "Developed responsive web applications for 20+ clients",
         "Improved site performance scores by 35% on average",
         "Introduced modern JavaScript frameworks to legacy codebases",
       ],
     },
+    {
+      company: "Leicester Interiors",
+      title: "Woodworker",
+      dateRange: "Jan 2020 - Jun 2021",
+      bullets: [
+        "Worked in a collaborative environment to design and build custom furniture pieces",
+        "Improved my customer-facing skills and learned to communicate effectively with clients to understand their needs and preferences",
+      ],
+    },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "QA",
+      degree: "Level 4 Software Developer Apprenticeship",
+      dateRange: "Sep 2024 - Apr 2026",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
+        "Completed the apprenticeship with a Distinction alongside practical real-world experience at Mountain Warehouse",
         "Dean's List all semesters",
         "President of Computer Science Club",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Open University",
+      degree: "Computing & IT and Business",
+      dateRange: "Dec 2022 - Sep 2024",
       achievements: [
-        "Completed 500+ hours of coursework",
+        "Completed the first two years with a 1st before taking on the apprenticeship to progress faster",
         "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
       ],
     },
   ],
